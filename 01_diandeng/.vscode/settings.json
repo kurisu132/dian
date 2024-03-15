@@ -1,0 +1,12 @@
+{
+  "C_Cpp.intelliSenseEngine": "default",
+  "files.associations": {
+    "gpio.h": "c"
+  },
+  "idf.adapterTargetName": "esp32s3",
+  "idf.flashType": "UART",
+  "idf.portWin": "COM8",
+  "idf.openOcdConfigs": [
+    "board/esp32s3-bridge.cfg"
+  ]
+}

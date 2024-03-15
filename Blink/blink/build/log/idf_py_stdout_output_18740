@@ -1,0 +1,50 @@
+-- Found Git: E:/work_app/Git/Git/cmd/git.exe (found version "2.44.0.windows.1") 
+-- The C compiler identification is GNU 13.2.0
+-- The CXX compiler identification is GNU 13.2.0
+-- The ASM compiler identification is GNU
+-- Found assembler: E:/work_app/ESP_IDF/Espressif/tools/xtensa-esp-elf/esp-13.2.0_20230928/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc.exe
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: E:/work_app/ESP_IDF/Espressif/tools/xtensa-esp-elf/esp-13.2.0_20230928/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: E:/work_app/ESP_IDF/Espressif/tools/xtensa-esp-elf/esp-13.2.0_20230928/xtensa-esp-elf/bin/xtensa-esp32s3-elf-g++.exe - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- git describe returned 'fatal: bad revision 'HEAD''
+-- Could not use 'git describe' to determine PROJECT_VER.
+-- Building ESP-IDF components for target esp32s3
+Dependencies lock doesn't exist, solving dependencies.
+...Updating lock file at E:\Code\ESP_Project\Blink\blink\dependencies.lock
+Processing 2 dependencies:
+[1/2] espressif/led_strip (2.5.3) from file:///E:/work_app/ESP_IDF/Espressif/registry
+[2/2] idf (5.2.1)
+-- Project sdkconfig file E:/Code/ESP_Project/Blink/blink/sdkconfig
+-- Compiler supported targets: xtensa-esp-elf
+-- Looking for sys/types.h
+-- Looking for sys/types.h - found
+-- Looking for stdint.h
+-- Looking for stdint.h - found
+-- Looking for stddef.h
+-- Looking for stddef.h - found
+-- Check size of time_t
+-- Check size of time_t - done
+-- Found Python3: e:/work_app/ESP_IDF/Espressif/python_env/idf5.2_py3.11_env/Scripts/python.exe (found version "3.11.2") found components: Interpreter 
+-- Performing Test C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS
+-- Performing Test C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS - Success
+-- App "blink" version: 1
+-- Adding linker script E:/Code/ESP_Project/Blink/blink/build/esp-idf/esp_system/ld/memory.ld
+-- Adding linker script E:/work_app/ESP_IDF/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/ld/esp32s3/sections.ld.in
+-- Adding linker script E:/work_app/ESP_IDF/Espressif/frameworks/esp-idf-v5.2.1/components/esp_rom/esp32s3/ld/esp32s3.rom.ld
+-- Adding linker script E:/work_app/ESP_IDF/Espressif/frameworks/esp-idf-v5.2.1/components/esp_rom/esp32s3/ld/esp32s3.rom.api.ld
+-- Adding linker script E:/work_app/ESP_IDF/Espressif/frameworks/esp-idf-v5.2.1/components/esp_rom/esp32s3/ld/esp32s3.rom.libgcc.ld
+-- Adding linker script E:/work_app/ESP_IDF/Espressif/frameworks/esp-idf-v5.2.1/components/esp_rom/esp32s3/ld/esp32s3.rom.newlib.ld
+-- Adding linker script E:/work_app/ESP_IDF/Espressif/frameworks/esp-idf-v5.2.1/components/esp_rom/esp32s3/ld/esp32s3.rom.version.ld
+-- Adding linker script E:/work_app/ESP_IDF/Espressif/frameworks/esp-idf-v5.2.1/components/soc/esp32s3/ld/esp32s3.peripherals.ld
+-- Components: app_trace app_update bootloader bootloader_support bt cmock console cxx driver efuse esp-tls esp_adc esp_app_format esp_bootloader_format esp_coex esp_common esp_eth esp_event esp_gdbstub esp_hid esp_http_client esp_http_server esp_https_ota esp_https_server esp_hw_support esp_lcd esp_local_ctrl esp_mm esp_netif esp_netif_stack esp_partition esp_phy esp_pm esp_psram esp_ringbuf esp_rom esp_system esp_timer esp_wifi espcoredump espressif__led_strip esptool_py fatfs freertos hal heap http_parser idf_test ieee802154 json log lwip main mbedtls mqtt newlib nvs_flash nvs_sec_provider openthread partition_table perfmon protobuf-c protocomm pthread sdmmc soc spi_flash spiffs tcp_transport touch_element ulp unity usb vfs wear_levelling wifi_provisioning wpa_supplicant xtensa
+-- Component paths: E:/work_app/ESP_IDF/Espressif/frameworks/esp-idf-v5.2.1/components/app_trace E:/work_app/ESP_IDF/Espressif/frameworks/esp-idf-v5.2.1/components/app_update E:/work_app/ESP_IDF/Espressif/frameworks/esp-idf-v5.2.1/components/bootloader E:/work_app/ESP_IDF/Espressif/frameworks/esp-idf-v5.2.1/components/bootloader_support E:/work_app/ESP_IDF/Espressif/frameworks/esp-idf-v5.2.1/components/bt E:/work_app/ESP_IDF/Espressif/frameworks/esp-idf-v5.2.1/components/cmock E:/work_app/ESP_IDF/Espressif/frameworks/esp-idf-v5.2.1/components/console E:/work_app/ESP_IDF/Espressif/frameworks/esp-idf-v5.2.1/components/cxx E:/work_app/ESP_IDF/Espressif/frameworks/esp-idf-v5.2.1/components/driver E:/work_app/ESP_IDF/Espressif/frameworks/esp-idf-v5.2.1/components/efuse E:/work_app/ESP_IDF/Espressif/frameworks/esp-idf-v5.2.1/components/esp-tls E:/work_app/ESP_IDF/Espressif/frameworks/esp-idf-v5.2.1/components/esp_adc E:/work_app/ESP_IDF/Espressif/frameworks/esp-idf-v5.2.1/components/esp_app_format E:/work_app/ESP_IDF/Espressif/frameworks/esp-idf-v5.2.1/components/esp_bootloader_format E:/work_app/ESP_IDF/Espressif/frameworks/esp-idf-v5.2.1/components/esp_coex E:/work_app/ESP_IDF/Espressif/frameworks/esp-idf-v5.2.1/components/esp_common E:/work_app/ESP_IDF/Espressif/frameworks/esp-idf-v5.2.1/components/esp_eth E:/work_app/ESP_IDF/Espressif/frameworks/esp-idf-v5.2.1/components/esp_event E:/work_app/ESP_IDF/Espressif/frameworks/esp-idf-v5.2.1/components/esp_gdbstub E:/work_app/ESP_IDF/Espressif/frameworks/esp-idf-v5.2.1/components/esp_hid E:/work_app/ESP_IDF/Espressif/frameworks/esp-idf-v5.2.1/components/esp_http_client E:/work_app/ESP_IDF/Espressif/frameworks/esp-idf-v5.2.1/components/esp_http_server E:/work_app/ESP_IDF/Espressif/frameworks/esp-idf-v5.2.1/components/esp_https_ota E:/work_app/ESP_IDF/Espressif/frameworks/esp-idf-v5.2.1/components/esp_https_server E:/work_app/ESP_IDF/Espressif/frameworks/esp-idf-v5.2.1/components/esp_hw_support E:/work_app/ESP_IDF/Espressif/frameworks/esp-idf-v5.2.1/components/esp_lcd E:/work_app/ESP_IDF/Espressif/frameworks/esp-idf-v5.2.1/components/esp_local_ctrl E:/work_app/ESP_IDF/Espressif/frameworks/esp-idf-v5.2.1/components/esp_mm E:/work_app/ESP_IDF/Espressif/frameworks/esp-idf-v5.2.1/components/esp_netif E:/work_app/ESP_IDF/Espressif/frameworks/esp-idf-v5.2.1/components/esp_netif_stack E:/work_app/ESP_IDF/Espressif/frameworks/esp-idf-v5.2.1/components/esp_partition E:/work_app/ESP_IDF/Espressif/frameworks/esp-idf-v5.2.1/components/esp_phy E:/work_app/ESP_IDF/Espressif/frameworks/esp-idf-v5.2.1/components/esp_pm E:/work_app/ESP_IDF/Espressif/frameworks/esp-idf-v5.2.1/components/esp_psram E:/work_app/ESP_IDF/Espressif/frameworks/esp-idf-v5.2.1/components/esp_ringbuf E:/work_app/ESP_IDF/Espressif/frameworks/esp-idf-v5.2.1/components/esp_rom E:/work_app/ESP_IDF/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system E:/work_app/ESP_IDF/Espressif/frameworks/esp-idf-v5.2.1/components/esp_timer E:/work_app/ESP_IDF/Espressif/frameworks/esp-idf-v5.2.1/components/esp_wifi E:/work_app/ESP_IDF/Espressif/frameworks/esp-idf-v5.2.1/components/espcoredump E:/Code/ESP_Project/Blink/blink/managed_components/espressif__led_strip E:/work_app/ESP_IDF/Espressif/frameworks/esp-idf-v5.2.1/components/esptool_py E:/work_app/ESP_IDF/Espressif/frameworks/esp-idf-v5.2.1/components/fatfs E:/work_app/ESP_IDF/Espressif/frameworks/esp-idf-v5.2.1/components/freertos E:/work_app/ESP_IDF/Espressif/frameworks/esp-idf-v5.2.1/components/hal E:/work_app/ESP_IDF/Espressif/frameworks/esp-idf-v5.2.1/components/heap E:/work_app/ESP_IDF/Espressif/frameworks/esp-idf-v5.2.1/components/http_parser E:/work_app/ESP_IDF/Espressif/frameworks/esp-idf-v5.2.1/components/idf_test E:/work_app/ESP_IDF/Espressif/frameworks/esp-idf-v5.2.1/components/ieee802154 E:/work_app/ESP_IDF/Espressif/frameworks/esp-idf-v5.2.1/components/json E:/work_app/ESP_IDF/Espressif/frameworks/esp-idf-v5.2.1/components/log E:/work_app/ESP_IDF/Espressif/frameworks/esp-idf-v5.2.1/components/lwip E:/Code/ESP_Project/Blink/blink/main E:/work_app/ESP_IDF/Espressif/frameworks/esp-idf-v5.2.1/components/mbedtls E:/work_app/ESP_IDF/Espressif/frameworks/esp-idf-v5.2.1/components/mqtt E:/work_app/ESP_IDF/Espressif/frameworks/esp-idf-v5.2.1/components/newlib E:/work_app/ESP_IDF/Espressif/frameworks/esp-idf-v5.2.1/components/nvs_flash E:/work_app/ESP_IDF/Espressif/frameworks/esp-idf-v5.2.1/components/nvs_sec_provider E:/work_app/ESP_IDF/Espressif/frameworks/esp-idf-v5.2.1/components/openthread E:/work_app/ESP_IDF/Espressif/frameworks/esp-idf-v5.2.1/components/partition_table E:/work_app/ESP_IDF/Espressif/frameworks/esp-idf-v5.2.1/components/perfmon E:/work_app/ESP_IDF/Espressif/frameworks/esp-idf-v5.2.1/components/protobuf-c E:/work_app/ESP_IDF/Espressif/frameworks/esp-idf-v5.2.1/components/protocomm E:/work_app/ESP_IDF/Espressif/frameworks/esp-idf-v5.2.1/components/pthread E:/work_app/ESP_IDF/Espressif/frameworks/esp-idf-v5.2.1/components/sdmmc E:/work_app/ESP_IDF/Espressif/frameworks/esp-idf-v5.2.1/components/soc E:/work_app/ESP_IDF/Espressif/frameworks/esp-idf-v5.2.1/components/spi_flash E:/work_app/ESP_IDF/Espressif/frameworks/esp-idf-v5.2.1/components/spiffs E:/work_app/ESP_IDF/Espressif/frameworks/esp-idf-v5.2.1/components/tcp_transport E:/work_app/ESP_IDF/Espressif/frameworks/esp-idf-v5.2.1/components/touch_element E:/work_app/ESP_IDF/Espressif/frameworks/esp-idf-v5.2.1/components/ulp E:/work_app/ESP_IDF/Espressif/frameworks/esp-idf-v5.2.1/components/unity E:/work_app/ESP_IDF/Espressif/frameworks/esp-idf-v5.2.1/components/usb E:/work_app/ESP_IDF/Espressif/frameworks/esp-idf-v5.2.1/components/vfs E:/work_app/ESP_IDF/Espressif/frameworks/esp-idf-v5.2.1/components/wear_levelling E:/work_app/ESP_IDF/Espressif/frameworks/esp-idf-v5.2.1/components/wifi_provisioning E:/work_app/ESP_IDF/Espressif/frameworks/esp-idf-v5.2.1/components/wpa_supplicant E:/work_app/ESP_IDF/Espressif/frameworks/esp-idf-v5.2.1/components/xtensa
+-- Configuring done
+-- Generating done
+-- Build files have been written to: E:/Code/ESP_Project/Blink/blink/build
