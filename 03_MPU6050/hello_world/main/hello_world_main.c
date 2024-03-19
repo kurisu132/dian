@@ -30,6 +30,7 @@ void app_main(void)
 {
     mpu6050_acce_value_t acce;
     mpu6050_gyro_value_t gyro;
+    complimentary_angle_t angle;
 
     i2c_sensor_mpu6050_init();
 
@@ -41,8 +42,11 @@ void app_main(void)
 
         mpu6050_get_gyro(mpu6050, &gyro);
         printf("gyro_x:%.2f, gyro_y:%.2f, gyro_z:%.2f\n", 
-        gyro.gyro_x, gyro.gyro_y, gyro.gyro_z);\
+        gyro.gyro_x, gyro.gyro_y, gyro.gyro_z);
 
+        mpu6050_complimentory_filter(mpu6050, &acce, &gyro, &angle);
+        printf("pitch:%.2f, roll:%.2f\n",
+        angle.pitch, angle.roll);
         vTaskDelay(pdMS_TO_TICKS(1000));
     };
 }
